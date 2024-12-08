@@ -16,22 +16,9 @@ When a book is added, a unique identifier is automatically generated, and the bo
 Users can remove a book from the library by entering the unique identifier of the book. If a book with the specified identifier does not exist, the application will display an error message.
 
 ### 3. Searching for a Book
-Users can search for books based on the following criteria:
-- **title**: The title of the book
-- **author**: The author of the book
-- **year**: The publication year of the book
+Users can search for books by criteria.
 
-The application will display a list of all books that match the search criteria.
-
-### 4. Displaying All Books
-Users can display a list of all books in the library. For each book, the following information is shown:
-- **id**: Unique identifier
-- **title**: The title of the book
-- **author**: The author of the book
-- **year**: The publication year
-- **status**: The status of the book (available or issued)
-
-### 5. Changing the Status of a Book
+### 4. Changing the Status of a Book
 Users can change the status of a book by entering the unique identifier of the book and the new status ("available" or "issued"). If a book with the specified identifier does not exist, the application will display an error message.
 
 ## Data Storage
